@@ -1,0 +1,11 @@
+{
+  "name": "phasertest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gimdongwon/phaser3_tutorial.git",
+  "author": "kimdongwon <ehddnjs8989@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.19.0"
+  }
+}

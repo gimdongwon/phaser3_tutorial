@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.19.0/dist/phaser.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
 </head>
 
@@ -35,7 +36,8 @@
             this.load.image('logo', 'assets/sprites/phaser3-logo.png');
             this.load.image('red', 'assets/particles/red.png');
         }
-        var platforms
+
+        var platforms;
 
         function create() {
             this.add.image(400, 300, 'sky');
@@ -66,6 +68,14 @@
             logo.setCollideWorldBounds(true);
 
             emitter.startFollow(logo);
+        }
+
+
+
+
+
+        function update() {
+
         }
     </script>
 
