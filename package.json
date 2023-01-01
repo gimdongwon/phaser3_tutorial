@@ -6,6 +6,6 @@
   "author": "kimdongwon <ehddnjs8989@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "phaser": "^3.19.0"
+    "phaser": "^3.55.2"
   }
 }
